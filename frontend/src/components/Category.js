@@ -10,11 +10,11 @@ const Category = () => {
   }, []);
 
   return (
-    <div className="category">
+    <section className="category">
       {item.map((item) => (
         <CategoryItem key={item.id} item={item} />
       ))}
-    </div>
+    </section>
   );
 };
 export default Category;

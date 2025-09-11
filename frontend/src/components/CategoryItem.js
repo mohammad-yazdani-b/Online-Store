@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 const CategoryItem = ({ item }) => {
   return (
     <div className="category-item">

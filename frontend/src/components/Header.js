@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
       <Link to={"/login"} className="logInBtn">
         ورود / ثبت نام
       </Link>
@@ -18,7 +18,7 @@ const Header = () => {
         </button>
       </div>
       <div className="logo">🛍️فروشگاه من</div>
-    </div>
+    </header>
   );
 };
 
