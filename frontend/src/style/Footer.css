@@ -1,0 +1,76 @@
+footer {
+  background-color: #7c3aed;
+  color: #e5e7eb;
+  height: 200px;
+}
+footer i {
+  color: #e5e7eb;
+}
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-container div {
+  height: 200px;
+}
+.ourstore-part {
+  width: 30%;
+}
+.ourstore-part i,
+h4 {
+  display: inline-block;
+  font-size: 24px;
+  margin: 8px;
+  margin-top: 20px;
+}
+.ourstore-part p {
+  font-size: 18px;
+  margin-right: 7px;
+}
+.social {
+  text-align: center;
+}
+.social a {
+  width: 20px;
+  aspect-ratio: 1/1;
+  margin-inline: 20px;
+}
+.social i {
+  font-size: 30px;
+  transition: 0.2s;
+}
+.social a:first-child:hover i {
+  color: #0bacfd;
+}
+.social a:nth-child(2):hover i {
+  color: #fd859b;
+}
+.social a:last-child:hover i {
+  color: #36f582;
+}
+.contactus-part {
+  width: 30%;
+  background-color: yellow;
+  color: black;
+}
+.contactus-part div {
+  height: 50%;
+}
+.email {
+  background-color: #36f582;
+}
+.phone {
+  background-color: #fd859b;
+}
+.address-part {
+  background-color: blue;
+  width: 30%;
+}
+.copy-write {
+  height: 50px;
+  background-color: red;
+}
