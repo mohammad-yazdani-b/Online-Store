@@ -33,6 +33,7 @@ h4 {
 }
 .social {
   text-align: center;
+  height: 50px !important;
 }
 .social a {
   width: 20px;
@@ -54,23 +55,39 @@ h4 {
 }
 .contactus-part {
   width: 30%;
-  background-color: yellow;
   color: black;
 }
 .contactus-part div {
   height: 50%;
 }
-.email {
-  background-color: #36f582;
-}
+.email,
 .phone {
-  background-color: #fd859b;
+  padding: 20px;
+}
+.email,
+.phone i {
+  margin-left: 12px;
+  font-size: 24px;
+}
+.email,
+.phone p {
+  display: inline-block;
+  font-size: 24px;
+  color: #e5e7eb;
 }
 .address-part {
-  background-color: blue;
   width: 30%;
+}
+.address-part i {
+  font-size: 20px;
+}
+.address-part p {
+  font-size: 18px;
 }
 .copy-write {
   height: 50px;
-  background-color: red;
+  background-color: #5b21b6;
+  text-align: center;
+  line-height: 50px;
+  color: #e5e7eb;
 }
