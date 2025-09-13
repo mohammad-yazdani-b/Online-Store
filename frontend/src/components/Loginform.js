@@ -1,4 +1,19 @@
+import { useForm } from "react-hook-form";
+import * as yup from "yup";
+import { yupResolver } from "@hookform/resolvers/yup";
+import axios from "axios";
+
 const Loginform = () => {
+  const schema = yup.object().shape();
+
+  const {
+    register,
+    handleSubmit,
+    formState: { error },
+  } = useForm({ resolver: yupResolver(schema) });
+
+  const onSubmit = () => {};
+
   return (
     <form>
       <div class="input-group">
@@ -11,6 +26,7 @@ const Loginform = () => {
         />
         <label for="username">username</label>
       </div>
+      <p className="error">این ارور هست</p>
       <div class="input-group">
         <input
           type="password"
@@ -22,6 +38,7 @@ const Loginform = () => {
         />
         <label for="pass">password</label>
       </div>
+      <p className="error">این ارور هست</p>
       <input type="submit" value="login" />
     </form>
   );

@@ -64,7 +64,8 @@
 }
 .loginForm .input-group {
   position: relative;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .loginForm input {
   width: 100%;
@@ -137,10 +138,16 @@ label {
   background-color: white;
   color: black;
   cursor: pointer;
+  margin-top: 15px;
   transition: box-shadow 0.3s ease-in-out;
 }
 .loginForm input[type="submit"]:hover {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+}
+.error{
+  color: red;
+  font-size: 14px;
+  text-align: center;
 }
 @media screen and (max-width: 1352px) {
   .img-div {
