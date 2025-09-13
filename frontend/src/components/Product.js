@@ -8,8 +8,10 @@ const Product = ({ item }) => {
         />
       </div>
       <h4 className="product-title">{item.title}</h4>
-      <p className="price">{Number(item.price).toLocaleString("fa-IR")} تومان</p>
-      <button>افزودن به سبد خرید</button>
+      <p className="price">
+        {Number(item.price).toLocaleString("fa-IR")} تومان
+      </p>
+      <button onClick={() => alert(`${item.title} به سبد خرید اضافه شد`)}>افزودن به سبد خرید</button>
     </div>
   );
 };

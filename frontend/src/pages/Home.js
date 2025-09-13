@@ -1,7 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Category from "../components/Category";
 import AboutUs from "../components/AboutUs";
-import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -22,7 +21,6 @@ const Home = () => {
         </h3>
       </div>
       <AboutUs />
-      <Footer />
     </>
   );
 };
