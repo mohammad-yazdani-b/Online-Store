@@ -1,7 +1,8 @@
-@import url(../src/style/Header.css);
-@import url(../src/style/Navbar.css);
-@import url(../src/style/Home.css);
-@import url(../src/style/Footer.css);
+@import url(./style/Header.css);
+@import url(./style/Navbar.css);
+@import url(./style/Home.css);
+@import url(./style/Footer.css);
+@import url(./style/Products.css);
 
 @font-face {
   font-family: Vazir;

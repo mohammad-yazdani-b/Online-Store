@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
 import category from "./data/category.js";
+import product from "./data/product.js";
 
 dotenv.config();
 
@@ -14,5 +15,8 @@ app.get("/categories", (req, res) => {
   res.json(category);
 });
 
+app.get("/products", (req, res) => {
+  res.json(product);
+});
 
 app.listen(port, () => console.log(`app is run on port ${port}`));
