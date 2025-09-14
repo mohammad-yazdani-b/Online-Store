@@ -17,7 +17,6 @@ Follow these steps to run the project locally and explore the full functionality
 
 Open your terminal, go to the backend folder, install dependencies, and start the server:
 
-```bash
 cd backend
 npm install
 npm run dev
