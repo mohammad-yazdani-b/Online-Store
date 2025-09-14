@@ -17,17 +17,21 @@ Follow these steps to run the project locally and explore the full functionality
 
 Open your terminal, go to the backend folder, install dependencies, and start the server:
 
-cd backend
-npm install
-npm run dev
+<pre>
+  cd backend
+  npm install
+  npm run dev
+</pre>
 
 ### 🌐 Frontend
 
 In a new terminal window, navigate to the frontend folder, install dependencies, and start the React app:
 
-cd frontend
-npm install
-npm start
+<pre>
+  cd frontend
+  npm install
+  npm start
+</pre>
 
 ### ⚠️ Note
 
