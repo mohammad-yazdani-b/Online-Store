@@ -3,6 +3,7 @@ import express from "express";
 import cors from "cors";
 import category from "./data/category.js";
 import product from "./data/product.js";
+import userRouter from "./routers/userRouter.js"
 
 dotenv.config();
 
@@ -10,6 +11,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
+app.use("/" , userRouter)
 
 app.get("/categories", (req, res) => {
   res.json(category);
